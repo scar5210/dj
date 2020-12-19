@@ -344,6 +344,19 @@ section h2{
 		color: #0066ff;
 	}
 
+	.effect-color {
+  background: #000;
+  }
+  .effect-color img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+  .effect-color img:hover {
+  opacity: .8;
+  }
+
+
 	/* SEC05 PROFILE
 	-----------------*/
 	#sec05{
@@ -514,6 +527,18 @@ section h2{
 	.gallery a:hover{
 		color: #0066ff;
 	}
+
+	.effect-color {
+  background: #000;
+  }
+  .effect-color img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+  .effect-color img:hover {
+  opacity: .8;
+  }
 
 	#sec05 a{
 		color: #0066ff;
