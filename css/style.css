@@ -76,6 +76,9 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	font-weight:normal;
 }
 
+#slogan br{
+	display: none;
+}
 
 /* フッター
 ------------------------------------------------------------*/
@@ -386,6 +389,11 @@ section h2{
 }
 
 @media only screen and (max-width: 640px){
+
+	#slogan br{
+		display: inline;
+	}
+
 	#map iframe{
 	  width: 96% !important;
 		left: 2%;
